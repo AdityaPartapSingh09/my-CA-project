@@ -5,7 +5,7 @@
 
 2. There will be 3 Gift and 1 Skull
 
-you have to find 3 gift in minimums chance
+you have to find 3 gift in minimum chances
 
 If you open skull then game will be over and you loss the game.
 
