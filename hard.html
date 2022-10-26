@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Now</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="heading">
+        <h1> Hide and Seek</h1>
+        <h4>Level - Hard</h4>
+        <hr>
+    </div>
+    <div id="gameBox">
+        <table>
+            <tr>
+                <th></th>
+                <th>0</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+            </tr>
+            <tr>
+                <th>A</th>
+                <td><i id="a0" class="fa-solid fa-0"></i></td>
+                <td><i id="a1" class="fa-solid fa-0"></i></td>
+                <td><i id="a2" class="fa-solid fa-0"></i></td>
+                <td><i id="a3" class="fa-solid fa-0"></i></td>
+                <td><i id="a4" class="fa-solid fa-0"></i></td>
+                <td><i id="a5" class="fa-solid fa-0"></i></td>
+                
+            </tr>
+            <tr>
+                <th>B</th>
+                <td><i id="b0" class="fa-solid fa-0"></i></td>
+                <td><i id="b1" class="fa-solid fa-0"></i></td>
+                <td><i id="b2" class="fa-solid fa-0"></i></td>
+                <td><i id="b3" class="fa-solid fa-0"></i></td>
+                <td><i id="b4" class="fa-solid fa-0"></i></td>
+                <td><i id="b5" class="fa-solid fa-0"></i></td>
+            </tr>
+            <tr>
+                <th>C</th>
+                <td><i id="c0" class="fa-solid fa-0"></i></td>
+                <td><i id="c1" class="fa-solid fa-0"></i></td>
+                <td><i id="c2" class="fa-solid fa-0"></i></td>
+                <td><i id="c3" class="fa-solid fa-0"></i></td>
+                <td><i id="c4" class="fa-solid fa-0"></i></td>
+                <td><i id="c5" class="fa-solid fa-0"></i></td>
+            </tr>
+            <tr>
+                <th>D</th>
+                <td><i id="d0" class="fa-solid fa-0"></i></td>
+                <td><i id="d1" class="fa-solid fa-0"></i></td>
+                <td><i id="d2" class="fa-solid fa-0"></i></td>
+                <td><i id="d3" class="fa-solid fa-0"></i></td>
+                <td><i id="d4" class="fa-solid fa-0"></i></td>
+                <td><i id="d5" class="fa-solid fa-0"></i></td>
+            </tr>
+            <tr>
+                <th>E</th>
+                <td><i id="e0" class="fa-solid fa-0"></i></td>
+                <td><i id="e1" class="fa-solid fa-0"></i></td>
+                <td><i id="e2" class="fa-solid fa-0"></i></td>
+                <td><i id="e3" class="fa-solid fa-0"></i></td>
+                <td><i id="e4" class="fa-solid fa-0"></i></td>
+                <td><i id="e5" class="fa-solid fa-0"></i></td>
+            </tr>
+            <tr>
+                <th>F</th>
+                <td><i id="f0" class="fa-solid fa-0"></i></td>
+                <td><i id="f1" class="fa-solid fa-0"></i></td>
+                <td><i id="f2" class="fa-solid fa-0"></i></td>
+                <td><i id="f3" class="fa-solid fa-0"></i></td>
+                <td><i id="f4" class="fa-solid fa-0"></i></td>
+                <td><i id="f5" class="fa-solid fa-0"></i></td>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+            </tr>
+            <tr>
+                <th></th>
+            </tr>
+        </table>
+        <div id="inputAndBtn">
+            <input id="userinp" type="text" placeholder="Enter number Like : C1">
+            <input id="btn" type="button" value="submit" onclick="search()">
+        </div>
+
+    </div>
+    <div id="leaderBoard">
+        <h1>Leader Board</h1>
+        <hr><br>
+        <h3 id="liveStepCount">Step Count - 0</h3>
+        <h4 id="livegiftOpenedCount">Gift Opened - 0</h4>
+        <h4 id="liveSkullCount">Skull Opened - 0</h4>
+    </div>
+    <div id="winBox" style="display: none;">
+        <div>
+            <h1 id="WinHeading">You Win</h1>
+            <hr><br>
+            <h3 id="wintotalStep">Number of step : </h3>
+            <h3 id="winuserRank">Your rank</h3>
+        </div>
+    </div>
+    <div id="lossBox" style="display: none;">
+        <div>
+            <h1 id="lossHeading">You Loss</h1>
+            <hr><br>
+            <h3 id="losstotalStep">Number of step : </h3>
+            <h3 id="lossuserRank">Your rank</h3>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/084084df99.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

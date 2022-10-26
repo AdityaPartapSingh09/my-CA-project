@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to left, rgb(238, 159, 159), rgb(154, 210, 234));
+}
+header{
+    text-align: center;
+    border-bottom: 2px solid gray;
+}
+main{
+    line-height: 1.5;
+    margin: 5% 0 0 15%;
+    height: 50vh;
+    width: 70%;
+    /* background: linear-gradient(to top, green, red); */
+    box-shadow: -5px 5px 5px -5px rgb(38, 36, 36);
+    border-radius: 15px;
+}
+main h3{
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 2px solid rgb(92, 92, 95);
+}
+main ul{
+    list-style: none;
+}
+main span{
+    font-weight: bold;
+}
+#rules{
+    margin: 2% 0 0 2%;
+}
+.inUl{
+    margin-left: 50px;
+}
+.inUl li{
+    list-style: disc;
+}
+#levelBox{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    float: right;
+    margin-top: 15px;
+}
+.level{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 20px;
+    border: 1px solid linen;
+    height: 100%;
+    width: 30%;
+    /* background-color: rgb(238, 159, 159); */
+    background: transparent;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+.level a{
+    text-decoration: none;
+}
+.level:hover{
+    box-shadow: 10px 10px 10px 10px gray;
+}
