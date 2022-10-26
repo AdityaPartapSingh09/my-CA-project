@@ -1,0 +1,14 @@
+1. There will be three level 
+	1. Easy (3*3 Grid)
+	2. Medium (4*4 Grid)
+	3. Hard (6*6 Grid)
+
+2. There will be 3 Gift and 1 Skull
+
+you have to find 3 gift in minimums chance
+
+If you open skull then game will be over and you loss the game.
+
+
+
+Note* - If user open same box twice then the step will be counted and this will be give you a bad impact on your final score.(there will be no any roll back)
